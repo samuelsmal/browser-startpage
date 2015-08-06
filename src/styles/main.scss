@@ -1,0 +1,37 @@
+@import 'normalize';
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(233, 233, 233);
+  background: url("../img/nh-pluto-in-false-color.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+section {
+  width: 100%;
+  background: rgba(250, 250, 250, 0.3);
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start; 
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
